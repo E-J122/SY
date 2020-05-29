@@ -31,7 +31,7 @@
         app:layout_constraintTop_toBottomOf="@+id/logo" />
 
     <Button
-        android:id="@+id/import"
+        android:id="@+id/import_video"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
