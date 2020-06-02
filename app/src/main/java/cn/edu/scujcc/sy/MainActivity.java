@@ -15,6 +15,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         importButton = findViewById(R.id.import_video);
+        importButton.setOnClickListener(v ->{
+            Intent intent=new Intent(MainActivity.this,ImportVideoActivity.class);
+            startActivity(intent);
+        });
     }
 
     public void click(View view){

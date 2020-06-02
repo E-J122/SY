@@ -3,4 +3,6 @@
     <string name="app_name">SY1</string>
     <string name="shoot">Take A Video</string>
     <string name="import_video">Import Local Video</string>
+    <string name="cancel">Cancel</string>
+    <string name="local_video">Local Video</string>
 </resources>
