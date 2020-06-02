@@ -9,13 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="cn.edu.scujcc.sy.MainActivity">
+        <activity android:name="cn.edu.scujcc.sy.MainActivity"/>
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <!-- 	指定分享类型,我这边只能分享video/mp4,image/* -->
+                <data android:mimeType="video/mp4"/>
+                <data android:mimeType="image/*" />
+            </intent-filter>
     </application>
 
 </manifest>
