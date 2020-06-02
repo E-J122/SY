@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SY1</string>
+    <string name="edit_return">return</string>
+    <string name="edit_save">save</string>
+</resources>
