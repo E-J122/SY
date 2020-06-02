@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SY1</string>
+    <string name="shoot">Take A Video</string>
+    <string name="import_video">Import Local Video</string>
+</resources>

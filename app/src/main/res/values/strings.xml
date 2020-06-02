@@ -1,4 +1,5 @@
 <resources>
-    <string name="app_name">随影</string>
-    <string name="share_button">分享给好友</string>
+    <string name="app_name">SY1</string>
+    <string name="shoot">拍摄视频</string>
+    <string name="import_video">导入本地视频</string>
 </resources>
