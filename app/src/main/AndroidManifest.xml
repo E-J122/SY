@@ -2,9 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="cn.edu.scujcc.sy">
 
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,15 +9,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
+        <activity android:name="cn.edu.scujcc.sy.MainActivity"/>
+=======
+<<<<<<< HEAD
+        <activity android:name=".EditActivity"></activity>
+=======
         <activity android:name=".VideoClipActivity"></activity>
+>>>>>>> 3d92726540a5e731dc0139f60f8fdc5faaef6921
         <activity android:name=".MainActivity">
+>>>>>>> e8d2295be3b70107a0cb9dce1e97f3c2fbb386b7
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name=".ImportVideoActivity" />
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <!-- 	指定分享类型,我这边只能分享video/mp4,image/* -->
+                <data android:mimeType="video/mp4"/>
+                <data android:mimeType="image/*" />
+            </intent-filter>
     </application>
 
 </manifest>

@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">SY1</string>
+<<<<<<< HEAD
+    <string name="edit_return">return</string>
+    <string name="edit_save">save</string>
+=======
     <string name="shoot">Take A Video</string>
     <string name="import_video">Import Local Video</string>
+<<<<<<< HEAD
+=======
     <string name="cancel">Cancel</string>
     <string name="local_video">Local Video</string>
+>>>>>>> 3d92726540a5e731dc0139f60f8fdc5faaef6921
+>>>>>>> e8d2295be3b70107a0cb9dce1e97f3c2fbb386b7
 </resources>

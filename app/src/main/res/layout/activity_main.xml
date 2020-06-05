@@ -4,6 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
+    tools:context=".MainActivity"/>
+=======
     android:background="@drawable/bg"
     tools:context=".MainActivity">
 
@@ -25,7 +28,6 @@
         android:layout_marginStart="80dp"
         android:layout_marginTop="70dp"
         android:layout_marginEnd="80dp"
-        android:onClick="click"
         android:text="@string/shoot"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -41,3 +43,4 @@
         app:layout_constraintStart_toStartOf="@+id/shoot"
         app:layout_constraintTop_toBottomOf="@+id/shoot" />
 </androidx.constraintlayout.widget.ConstraintLayout>
+>>>>>>> 3d92726540a5e731dc0139f60f8fdc5faaef6921
