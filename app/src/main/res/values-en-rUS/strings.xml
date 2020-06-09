@@ -7,4 +7,6 @@
     <string name="import_video">Import Local Video</string>
     <string name="cancel">Cancel</string>
     <string name="local_video">Local Video</string>
+    <string name="share_button">Share</string>
+    <string name="skip">Skip</string>
 </resources>
