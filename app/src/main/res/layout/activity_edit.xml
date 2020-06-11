@@ -76,7 +76,7 @@
 
             <TextView
                 android:id="@+id/vedio_time"
-                android:layout_width="40dp"
+                android:layout_width="wrap_content"
                 android:layout_height="418dp"
                 android:text="00:00:00"
                 android:textColor="#FF9800"
