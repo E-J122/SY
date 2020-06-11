@@ -1,13 +1,10 @@
 <resources>
-<<<<<<< HEAD
-    <string name="app_name">SY1</string>
+    <string name="app_name">随影</string>
     <string name="edit_return">返回</string>
     <string name="edit_save">保存</string>
-=======
-    <string name="app_name">随影</string>
+    <string name="share_button" translatable="false">分享</string>
     <string name="shoot">拍摄视频</string>
     <string name="import_video">导入本地视频</string>.
     <string name="cancel">取消</string>
     <string name="local_video">本地视频</string>
->>>>>>> 3d92726540a5e731dc0139f60f8fdc5faaef6921
 </resources>
