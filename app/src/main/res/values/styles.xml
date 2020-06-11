@@ -6,13 +6,17 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <!-- 背景透明,设置圆角对话框必须设置背景透明，否则四角会有背景色小块-->
-        <item name="android:windowBackground">@android:color/transparent</item>
-        <!-- 没有标题 -->
-        <item name="android:windowNoTitle">true</item>
-        <!-- 背景模糊 -->
-        <item name="android:backgroundDimEnabled">true</item>
     </style>
-
-    <style name="circleDialog"></style>
+    <style name="AppThemeNoBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.Full">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
 </resources>
