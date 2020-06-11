@@ -22,7 +22,7 @@ import java.io.File;
 /**
  * author KYX
  * 视频编辑界面
- * @param savedInstanceState
+ * @param
  */
 @SuppressLint("NewApi")
 public class EditActivity extends AppCompatActivity implements View.OnClickListener,ScrollViewListener {
